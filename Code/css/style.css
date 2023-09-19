@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+
+.startbox {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 90%;
+    max-width: 37em;
+    background-color: white;
+    padding: 7em 3em;
+    transform: translate(-50%, -75%);
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 1em;
+    padding: 2%;
+}
+
+.gamebox {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 90%;
+    max-width: 37em;
+    background-color: white;
+    padding: 7em 3em;
+    transform: translate(-50%, -50%);
+    top: 175%;
+    left: 50%;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 1em;
+    padding: 2%;
+}
+
+body {
+    background:  #7cb6bd;
+    background-size: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+li {
+    list-style: inside;
+}
+
+#letter-container {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em 0.4em;
+    justify-content: center;
+}
+
+#letter-container button {
+    background-color: white;
+    border: 2px solid #000000;
+    color: #7cb6bd;
+    outline: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    height: 3em;
+    width: 3em;
+}
+
+#letter-container .correct{
+    background-color: #3176d0; 
+    color: #ffffff;
+    border: 2px solid #3176d0;
+}
+
+#letter-container .incorrect{
+    background-color: #3176d0; 
+    color: #ffffff;
+    border: 2px solid #3176d0;
+}
+
+#start {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 1em 3em;
+    background-color: #ffffff;
+    border: solid 2px black;
+    outline: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.hint-ref {
+    margin-bottom: 1m;
+}
+
+.hint-ref span {
+    font-weight: 600;
+}
+
+#chanceCount {
+    margin: 1em 0;
+    position: absolute;
+    top: 0.62em;
+    right: 2em;
+}
+
+#word {
+    font-weight: 600;
+}
+
+#word span {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.hide {
+    display: none;
+}
+

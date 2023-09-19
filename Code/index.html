@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>[AD] Guess the Word!</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <div class="startbox">
+            <header>
+                <h1><u>Guess the Word!</u></h1>
+                <h3>Directions:</h3>
+            </header>
+            <ol type="1">
+                <li>You are timed, and have 3 minutes to guess each word.</li>
+                <li>You have 5 letter guesses before you lose the round.</li>
+                <li>Words may contain hyphens. (Ex: "x-ray")</li>
+                <li>Your total wins & losses will be displayed.</li>
+            </ol>
+
+            <div class="controls-container">
+                <div id="result"></div>
+                <div id="word"></div>
+                <button id="start">Start</button>
+            </div>
+        
+            <div class="gamebox">
+                <div class="hint-ref"></div><br>
+                    <div id="user-input-section"></div>
+                    <div id="message"></div>
+                <div id="letter-container"></div>  
+            </div>
+
+            <script src="script.js"></script>
+            
+        </div>
+    </body>
